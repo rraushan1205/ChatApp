@@ -1,9 +1,14 @@
 import "./App.css";
+import ChatBase from "./component/ChatBase";
+import NavBar from "./component/NavBar";
 
 function App() {
   return (
     <>
-      <p className="mx-5 my-20">Hello</p>
+      <div className="bg-black text-white">
+        <NavBar />
+        <ChatBase />
+      </div>
     </>
   );
 }
